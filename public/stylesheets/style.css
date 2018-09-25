@@ -1,0 +1,242 @@
+.navbar {
+  font: 19px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul {
+  padding-left: 0 !important;
+}
+
+body {
+  background-color: #fcfdff;
+}
+.navbar {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+.navbar-brand {
+  padding-top: .7rem !important;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+
+.nav-link {
+  border-radius: 10px;
+  margin-left: 0px;
+  color: rgba(0, 0, 0, 1) !important;
+  width: 95px;
+  text-align: center;
+}
+
+.nav-link.discover:hover{
+  background-color: #247BA0 ;
+}
+
+.nav-link.create:hover{
+  background-color: #FFE066;
+}
+
+.nav-link.profile:hover{
+  background-color: #F25F5C;
+}
+
+
+.active.discover {
+  border: 1.5px solid #247BA0 ;
+}
+
+.active.create {
+  border: 1.5px solid #FFE066;
+}
+
+.active.profile {
+  border: 1.5px solid #F25F5C;
+}
+
+.bull.yellow::before {
+  content: "•";
+  font-size: 30px;
+  color: #FFE066 !important;
+}
+
+.bull.red::before {
+  content: "•";
+  font-size: 30px;
+}
+
+
+.bull.blue::before {
+  content: "•";
+  font-size: 30px;
+  color: #247BA0  !important;
+}
+
+.red {
+  color: #F25F5C !important;
+}
+
+.blue {
+  color: #247BA0 !important;
+}
+
+.yellow {
+  color: #FFE066 !important;
+}
+
+.logo-section {
+  float: right;
+}
+
+.inline-spacer{
+  width: 40px;
+}
+
+.spacer{
+  height: 10px;
+}
+
+.mid-section {
+  left: 40%;
+  top: 45%;
+  position: absolute;
+  z-index: 2;
+}
+
+
+
+.title {
+  font-family: 'Noto Serif JP', sans-serif;
+
+}
+.bull {
+  text-align: center;
+  position: relative;
+  top: 0.22rem;
+  left: 5px;
+}
+
+.background-container {
+  height: 670px;
+  overflow: hidden;
+}
+
+.go:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.clickable:hover {
+  transform: scale(1.2);
+}
+
+
+
+.project {
+  background-color: rgb(174, 222, 243);
+  border-radius: 10px;
+  padding-left: 1em;
+  margin-top: 40px;
+}
+
+.proj-title {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 34px;
+}
+
+.proj-title-row {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.description {
+  padding-bottom: 1em;
+}
+
+.people{
+  float: right;
+  padding-right: 1.5em;
+}
+
+.description-box {
+  padding-top: 0.5em;
+  overflow-wrap: break-word;
+}
+
+.title-box {
+}
+
+.skills-box {
+  margin-top: 1.25em;
+  margin-bottom: 1em;
+  padding-left: 2em;
+  border-left: 1px solid rgba(38, 126, 226, 0.737);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.title-input {
+  width: 600px;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: rgb(0,0,0,0);
+  outline: none;
+  padding-left: 10px;
+  overflow: scroll;
+}
+
+.title-div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 600px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+.desc-input {
+  top: 0px;
+  
+  background-repeat: no-repeat;
+  border: none;
+  background-color: rgb(0,0,0,0);
+  outline: none;
+  padding-left: 10px;
+  height: 100% !important;
+  width: 100% !important;
+  overflow:visible;
+
+}
+
+.desc-div {
+  align-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 600px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+
+}
+.desc-input {
+  width: 300px;
+  radius: 5px;
+}

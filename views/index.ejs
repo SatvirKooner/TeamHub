@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      <div class="container">
+      <nav class="navbar navbar-expand-sm navbar-light ">
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <a class = "bull blue "></a>
+              <li class="nav-item ">
+                <a class="nav-link active discover " href="#"> Discover<span class="sr-only">(current)</span></a>
+              </li>
+              <a class = "bull yellow"></a>
+
+              <li class="nav-item">
+                <a class="nav-link create" href="/create"> Create </a>
+              </li>
+              <a class = "bull red"></a>
+
+              <li class="nav-item">
+                <a class="nav-link profile" href="/profile"> Profile</a>
+              </li>
+             
+            </ul>
+          </div>
+          <div class="logo-section">
+            <a class="navbar-brand" href="#">TeamHub</a>
+            <img align ="right" src="/images/logo.svg"/>
+
+        </div>
+        </nav>
+        <div class="spacer"></div>
+        <div class = "projects">
+
+
+        <% for (var i = 0; i < projectlist.length; i++ ) { %>
+        <div class="project jumbotron-fluid">
+            <div class="container">
+              <div class ="row">
+
+                <div class="col-lg-9">
+                  <div class="title-box">
+                    <div class= "proj-title-row">
+                      <span class="display-5 proj-title"><%= projectlist[i].title %></span>
+                      <div class="people">
+                        <% for (var j = 0; j < projectlist[i].current; j++) { %>
+                          <img src="/images/person.svg">
+                        <% }; for (var j = 0; j < projectlist[i].max - projectlist[i].current; j++) { %>
+                          <img src="/images/person2.svg">
+                          <% }; %>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="description-box">
+                  <p class="lead description"><%= projectlist[i].description %></p>
+                  </div>
+                </div>
+                <div class="skills-box col-lg-3"> 
+                  <h4>Skills</h4>
+                  <ul>
+                    <% for (var j = 0; j < projectlist[i].skills.length; j++) { %>
+                      <li><%= projectlist[i].skills[j] %></li>
+                    <% }; %>
+                  </ul>
+                </div>
+
+              </div>
+
+
+            </div>
+        </div>
+        <% }; %>
+
+    </div>
+    </div>
+  </body>
+  <footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </footer>
+</html>

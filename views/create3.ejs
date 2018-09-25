@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      <div class="container">
+      <nav class="navbar navbar-expand-sm navbar-light ">
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <a class = "bull blue "></a>
+              <li class="nav-item ">
+                <a class="nav-link discover " href="/"> Discover<span class="sr-only">(current)</span></a>
+              </li>
+              <a class = "bull yellow"></a>
+
+              <li class="nav-item">
+                <a class="nav-link active create" href="/create"> Create </a>
+              </li>
+              <a class = "bull red"></a>
+
+              <li class="nav-item">
+                <a class="nav-link profile" href="/profile"> Profile</a>
+              </li>
+             
+            </ul>
+          </div>
+          <div class="logo-section">
+            <a class="navbar-brand" href="/">TeamHub</a>
+            <img align ="right" src="/images/logo.svg"/>
+
+        </div>
+      </nav>
+      <div class="container">
+        <br>
+        <br>
+        <br>
+          <div class="center">
+            <h2>Description</h2>
+            <div class="spacer"></div>
+            <h6>How will your project impact the earth?</h5>
+            <form>
+            <div class=" center title-div">
+              <input id="title" maxlength ="50" type ="text" placeholder ="Add your title here...." class="title-input"></input><br>
+            </div>
+            <div class=" center desc-div">
+             <textarea id ="desc"  maxlength ="1000"  type ="text" placeholder ="Add your description here...."  class="desc-input"></textarea>
+            </div>
+            </div>
+            </form>
+          
+        </div>
+      <img src="/images/world-rocket.png" style="position: absolute; bottom: 0px; left: 0px; right: 0px; margin-left: auto; margin-right: auto;"/>
+      <a id="create-3"><img class = "clickable" src="/images/next.png" style="position: absolute; bottom: 10%; right:10%;"></a>
+   
+      
+
+    </div>
+  </body>
+  <footer>
+      
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="/javascripts/create2.js"></script>
+  </footer>
+</html>

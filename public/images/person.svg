@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>person</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Browse" transform="translate(-831.000000, -275.000000)" fill="#F25F5C">
+            <g id="cryptoBOT-post" transform="translate(63.000000, 244.000000)">
+                <g id="people" transform="translate(743.000000, 31.000000)">
+                    <g id="person" transform="translate(25.000000, 0.000000)">
+                        <circle id="Oval" cx="11" cy="6.2173913" r="6.2173913"></circle>
+                        <path d="M0,22 C0.0402395131,19.6638297 0.610062413,17.6236144 1.7094687,15.8793542 C2.80887499,14.1350941 4.2474712,12.8274832 6.02525732,11.9565217 C7.32152863,13.2698099 8.9795325,13.926454 10.9992689,13.926454 C13.0190054,13.926454 14.7032373,13.2698099 16.0519647,11.9565217 C17.7317224,12.6136295 19.1512842,13.9212404 20.3106503,15.8793542 C21.4700163,17.8374681 22.0326455,19.8776834 21.9985379,22 L0,22 Z" id="Path-100"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

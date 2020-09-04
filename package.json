@@ -13,6 +13,6 @@
     "http-errors": "~1.6.2",
     "kerberos": "~1.00",
     "morgan": "~1.9.0",
-    "mongodb": "~2.2.33"
+    "mongodb": "~3.1.13"
   }
 }
